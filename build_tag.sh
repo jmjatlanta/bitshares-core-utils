@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION=$1
-DEV_DIR=/home/jmjatlanta/Development/cpp
+DEV_DIR=~/Development/cpp
 
 cd $DEV_DIR
 git clone ssh://git@github.com/bitshares/bitshares-core bitshares-core-$VERSION
