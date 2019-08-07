@@ -11,4 +11,4 @@ cd bitshares-core-$VERSION
 git checkout tags/$VERSION
 git submodule update --init --recursive
 cmake -DCMAKE_BUILD_TYPE=Release -DBOOST_ROOT=$BOOST_DIR -DOPENSSL_ROOT_DIR=$OPENSSL_DIR .
-make -j8
+make -j2

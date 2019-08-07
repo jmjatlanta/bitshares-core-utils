@@ -9,4 +9,4 @@ cd bitshares-core-$BRANCH
 git checkout $BRANCH
 git submodule update --init --recursive
 cmake -DCMAKE_BUILD_TYPE=Release .
-make -j8
+make -j2
